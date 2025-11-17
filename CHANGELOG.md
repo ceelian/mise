@@ -1,5 +1,25 @@
 # Changelog
 
+## [2025.11.6](https://github.com/jdx/mise/compare/v2025.11.5..v2025.11.6) - 2025-11-17
+
+### 📚 Documentation
+
+- simplify apt instructions by @scop in [#6986](https://github.com/jdx/mise/pull/6986)
+- update idiomatic version files enablement info by @scop in [#6985](https://github.com/jdx/mise/pull/6985)
+
+### 📦 Aqua Registry Updates
+
+#### New Packages (1)
+
+- [`houseabsolute/omegasort`](https://github.com/houseabsolute/omegasort)
+
+#### Updated Packages (5)
+
+- [`apache/maven`](https://github.com/apache/maven)
+- [`chaqchase/lla`](https://github.com/chaqchase/lla)
+- [`leoafarias/fvm`](https://github.com/leoafarias/fvm)
+- [`rustic-rs/rustic`](https://github.com/rustic-rs/rustic)
+- [`sigstore/rekor`](https://github.com/sigstore/rekor)
 ## [2025.11.5](https://github.com/jdx/mise/compare/v2025.11.4..v2025.11.5) - 2025-11-15
 
 ### 🚀 Features
