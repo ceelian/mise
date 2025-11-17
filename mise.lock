@@ -2,6 +2,11 @@
 version = "1.7.8"
 backend = "aqua:rhysd/actionlint"
 
+[tools.actionlint.platforms.linux-arm64]
+checksum = "sha256:4c65dbb2d59b409cdd75d47ffa8fa32af8f0eee573ac510468dc2275c48bf07c"
+size = 2009863
+url = "https://github.com/rhysd/actionlint/releases/download/v1.7.8/actionlint_1.7.8_linux_arm64.tar.gz"
+
 [tools.actionlint.platforms.linux-x64]
 checksum = "sha256:be92c2652ab7b6d08425428797ceabeb16e31a781c07bc388456b4e592f3e36a"
 size = 2219735
@@ -10,6 +15,11 @@ url = "https://github.com/rhysd/actionlint/releases/download/v1.7.8/actionlint_1
 [[tools.age]]
 version = "1.2.1"
 backend = "aqua:FiloSottile/age"
+
+[tools.age.platforms.linux-arm64]
+checksum = "blake3:2ddc752857b1f0e47fedbf13c5edb82d5b310a7361d03a0ad20239eb2c6c384d"
+size = 4879993
+url = "https://github.com/FiloSottile/age/releases/download/v1.2.1/age-v1.2.1-linux-arm64.tar.gz"
 
 [tools.age.platforms.linux-x64]
 checksum = "blake3:8441277927f75428a6d22897a5cc05e8cdc03562d7a203b2bb9a7c6cd1d0c3bd"
@@ -25,6 +35,10 @@ url = "https://github.com/FiloSottile/age/releases/download/v1.2.1/age-v1.2.1-da
 version = "1.3.2"
 backend = "core:bun"
 
+[tools.bun.platforms.linux-arm64]
+checksum = "blake3:8a08173fff4087eff039bca0789ba5dc9b8d24b909cf6e3174006f6151fb02b1"
+size = 38163037
+
 [tools.bun.platforms.linux-x64]
 checksum = "blake3:d9f743140120e39812867aa896512deea4fe99ab866029f8bd5a347557c61073"
 size = 39630922
@@ -32,6 +46,11 @@ size = 39630922
 [[tools.cargo-binstall]]
 version = "1.15.11"
 backend = "aqua:cargo-bins/cargo-binstall"
+
+[tools.cargo-binstall.platforms.linux-arm64]
+checksum = "sha256:f777d3e1e96084e7a6957a88f7e20aa1c58b76167af51583e5e6ec6d7832f06f"
+size = 6359787
+url = "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.15.11/cargo-binstall-aarch64-unknown-linux-musl.tgz"
 
 [tools.cargo-binstall.platforms.linux-x64]
 checksum = "sha256:82d6c69a87d222bbf834371af0dc4d1c08037739ea54be9f4857e00ff7af05c7"
@@ -66,6 +85,11 @@ backend = "cargo:usage-cli"
 version = "2.83.1"
 backend = "aqua:cli/cli"
 
+[tools.gh.platforms.linux-arm64]
+checksum = "sha256:36af472f8e96fd67253f813f71d9610624cc4e3c7a5b148459e42ffa1a933f64"
+size = 16544056
+url = "https://github.com/cli/cli/releases/download/v2.83.1/gh_2.83.1_linux_arm64.tar.gz"
+
 [tools.gh.platforms.linux-x64]
 checksum = "sha256:1c5252d4ce3db07b51c01ff0b909583da6364ff3fdc06d0c2e75e62dc0380a34"
 size = 18174787
@@ -75,6 +99,11 @@ url = "https://github.com/cli/cli/releases/download/v2.83.1/gh_2.83.1_linux_amd6
 version = "1.20.0"
 backend = "aqua:jdx/hk"
 
+[tools.hk.platforms.linux-arm64]
+checksum = "sha256:4e6189dc784ba37ccee6a6c5d4e32a3bdf42389e3d9e2f15892e762d21b1aeff"
+size = 7141659
+url = "https://github.com/jdx/hk/releases/download/v1.20.0/hk-aarch64-unknown-linux-gnu.tar.gz"
+
 [tools.hk.platforms.linux-x64]
 checksum = "sha256:f35036c5e43f32e5c110a6c147df598d69d2afb56186ffa7b5d5af0d517c7069"
 size = 7184547
@@ -83,6 +112,11 @@ url = "https://github.com/jdx/hk/releases/download/v1.20.0/hk-x86_64-unknown-lin
 [[tools.jq]]
 version = "1.8.1"
 backend = "aqua:jqlang/jq"
+
+[tools.jq.platforms.linux-arm64]
+checksum = "sha256:6bc62f25981328edd3cfcfe6fe51b073f2d7e7710d7ef7fcdac28d4e384fc3d4"
+size = 1797872
+url = "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-arm64"
 
 [tools.jq.platforms.linux-x64]
 checksum = "sha256:020468de7539ce70ef1bceaf7cde2e8c4f2ca6c3afb84642aabc5c97d9fc2a0d"
@@ -97,6 +131,11 @@ url = "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-macos-arm64"
 [[tools.node]]
 version = "24.11.1"
 backend = "core:node"
+
+[tools.node.platforms.linux-arm64]
+checksum = "sha256:0dc93ec5c798b0d347f068db6d205d03dea9a71765e6a53922b682b91265d71f"
+size = 56043084
+url = "https://nodejs.org/dist/v24.11.1/node-v24.11.1-linux-arm64.tar.gz"
 
 [tools.node.platforms.linux-x64]
 checksum = "sha256:58a5ff5cc8f2200e458bea22e329d5c1994aa1b111d499ca46ec2411d58239ca"
@@ -119,6 +158,11 @@ backend = "npm:prettier"
 version = "0.30.0"
 backend = "aqua:apple/pkl"
 
+[tools.pkl.platforms.linux-arm64]
+checksum = "sha256:a876085548bba146854d0e96df16df828a8b39d75b57674eb3ad73edd9e52d96"
+size = 96407088
+url = "https://github.com/apple/pkl/releases/download/0.30.0/pkl-linux-aarch64"
+
 [tools.pkl.platforms.linux-x64]
 checksum = "sha256:182a50a2c84bb002010ea45c8982c1e63b54e7e6a40e939bb5eb70beaad38cd7"
 size = 99355968
@@ -127,6 +171,11 @@ url = "https://github.com/apple/pkl/releases/download/0.30.0/pkl-linux-amd64"
 [[tools.pre-commit]]
 version = "4.4.0"
 backend = "aqua:pre-commit/pre-commit"
+
+[tools.pre-commit.platforms.linux-arm64]
+checksum = "sha256:9a7e1ff43020518d26698c3d1fe1dadddd161178880293333124348276ab98db"
+size = 8262847
+url = "https://github.com/pre-commit/pre-commit/releases/download/v4.4.0/pre-commit-4.4.0.pyz"
 
 [tools.pre-commit.platforms.linux-x64]
 checksum = "sha256:9a7e1ff43020518d26698c3d1fe1dadddd161178880293333124348276ab98db"
@@ -137,6 +186,11 @@ url = "https://github.com/pre-commit/pre-commit/releases/download/v4.4.0/pre-com
 version = "15.1.0"
 backend = "aqua:BurntSushi/ripgrep"
 
+[tools.ripgrep.platforms.linux-arm64]
+checksum = "sha256:2b661c6ef508e902f388e9098d9c4c5aca72c87b55922d94abdba830b4dc885e"
+size = 1869959
+url = "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-aarch64-unknown-linux-gnu.tar.gz"
+
 [tools.ripgrep.platforms.linux-x64]
 checksum = "sha256:1c9297be4a084eea7ecaedf93eb03d058d6faae29bbc57ecdaf5063921491599"
 size = 2263077
@@ -145,6 +199,11 @@ url = "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15
 [[tools.shellcheck]]
 version = "0.11.0"
 backend = "aqua:koalaman/shellcheck"
+
+[tools.shellcheck.platforms.linux-arm64]
+checksum = "sha256:12b331c1d2db6b9eb13cfca64306b1b157a86eb69db83023e261eaa7e7c14588"
+size = 6811484
+url = "https://github.com/koalaman/shellcheck/releases/download/v0.11.0/shellcheck-v0.11.0.linux.aarch64.tar.xz"
 
 [tools.shellcheck.platforms.linux-x64]
 checksum = "blake3:0ad9524f3f16ad030f8350e7b970c62c24aeff3d813f2565665aecc5a8b79644"
@@ -155,6 +214,11 @@ url = "https://github.com/koalaman/shellcheck/releases/download/v0.11.0/shellche
 version = "3.12.0"
 backend = "aqua:mvdan/sh"
 
+[tools.shfmt.platforms.linux-arm64]
+checksum = "sha256:5f3fe3fa6a9f766e6a182ba79a94bef8afedafc57db0b1ad32b0f67fae971ba4"
+size = 2883768
+url = "https://github.com/mvdan/sh/releases/download/v3.12.0/shfmt_v3.12.0_linux_arm64"
+
 [tools.shfmt.platforms.linux-x64]
 checksum = "sha256:d9fbb2a9c33d13f47e7618cf362a914d029d02a6df124064fff04fd688a745ea"
 size = 2916536
@@ -163,6 +227,11 @@ url = "https://github.com/mvdan/sh/releases/download/v3.12.0/shfmt_v3.12.0_linux
 [[tools.sops]]
 version = "3.11.0"
 backend = "aqua:getsops/sops"
+
+[tools.sops.platforms.linux-arm64]
+checksum = "sha256:c71d32f74b3a73ce283affe6ed36e221a8f1476c3d37963f60bd962fb1676681"
+size = 43188408
+url = "https://github.com/getsops/sops/releases/download/v3.11.0/sops-v3.11.0.linux.arm64"
 
 [tools.sops.platforms.linux-x64]
 checksum = "sha256:775f1384d55decfad228e7196a3f683791914f92a473f78fc47700531c29dfef"
@@ -173,6 +242,11 @@ url = "https://github.com/getsops/sops/releases/download/v3.11.0/sops-v3.11.0.li
 version = "0.10.0"
 backend = "aqua:tamasfe/taplo"
 
+[tools.taplo.platforms.linux-arm64]
+checksum = "blake3:7f7a3ddaa5acf0bc243fc1134dc68a94a39b2bef91000f7866dd90e4bd670b5e"
+size = 4631779
+url = "https://github.com/tamasfe/taplo/releases/download/0.10.0/taplo-linux-aarch64.gz"
+
 [tools.taplo.platforms.linux-x64]
 checksum = "blake3:4871fab0e60275a1eb46e7190726e144f56c9a9527f59b0d1da5a042baead8e2"
 size = 5116068
@@ -181,6 +255,9 @@ url = "https://github.com/tamasfe/taplo/releases/download/0.10.0/taplo-linux-x86
 [[tools.wait-for-gh-rate-limit]]
 version = "1.0.0"
 backend = "ubi:jdx/wait-for-gh-rate-limit"
+
+[tools.wait-for-gh-rate-limit.platforms.linux-arm64-wait-for-gh-rate-limit]
+checksum = "blake3:2950d73d3d69bd0d49dd51acb54bba93db2201f9af16200fff01b00f482e57d6"
 
 [tools.wait-for-gh-rate-limit.platforms.linux-x64-wait-for-gh-rate-limit]
 checksum = "blake3:2123971d2eea236d17fb0475c94bef89adf9239df4a8da53261d2eaf8551c622"

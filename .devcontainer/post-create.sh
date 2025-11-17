@@ -3,6 +3,13 @@
 # Setup script for mise development shim
 # This creates a shim that allows running mise via 'cargo run'
 
+echo "Installing required dependencies..."
+sudo apt-get update && sudo apt-get install -y libclang-dev
+
+echo "Updating Rust to required version..."
+rustup update stable
+rustup default stable
+
 echo "Setting up mise development shim..."
 
 cat > /usr/local/bin/mise << 'EOF'
